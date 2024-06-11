@@ -84,6 +84,22 @@ if ($_SESSION['username'] == '') {
                     case "user-update";
                         include "../user/user_update.php";
                         break;
+                        // mata_kuliah 
+                    case "mata_kuliah-show";
+                        include "../mata_kuliah/mata_kuliah_show.php";
+                        break;
+                    case "mata_kuliah-add";
+                        include "../mata_kuliah/mata_kuliah_add.php";
+                        break;
+                    case "mata_kuliah-edit";
+                        include "../mata_kuliah/mata_kuliah_edit.php";
+                        break;
+                    case "mata_kuliah-delete";
+                        include "../mata_kuliah/mata_kuliah_delete.php.php";
+                        break;
+                    case "mata_kuliah-update";
+                        include "../mata_kuliah/mata_kuliah_update.php";
+                        break;
                 }
                 ?>
             </div>
